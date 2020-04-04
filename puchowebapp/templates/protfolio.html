@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="site-section" id="portfolio-section">
+    <div class="container">
+      <div class="row mb-5 ">
+        <div class="col-md-7 section-title text-center mx-auto">
+          <span class="sub-title mb-2 d-block">Recent Works</span>
+          <h2 class="title text-primary mb-3">We love what we do, check out some of our latest works</h2>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <img src="{% static 'images/sq_img_2.jpg' %}" alt="Image" class="img-fluid">
+        </div>
+        <div class="col-lg-5 h-100 jm-sticky-top ml-auto">
+          <h3>Flagship Product</h3>
+          <p class="mb-4">Pucho has embarked on a mission to eliminate the biggest language barrier problem in a country, where people have no access to online information and have no vernacular efficiency in English, English being the common online language. We endeavor to create a multilingual query and action platform on any device using text or voice.
+
+â€˜Puchoâ€™, our flagship product â€“ is being built on a next-gen platform where queries can be made in any language either vocally or in text/video/image form and information will be available in voice, text, image or video form based on the type of query, in the language of the user. In essence, it will be a search engine that will provide you with knowledge not just from existing websites and online sources (like most search engines do) but also from offline sources, verified information from peers who are present on-ground in real-time.
+
+Puchoâ€™s uniqueness lies in uniting the â€˜disconnectedâ€™ segment of our world.
+</p>
+          <p class="mb-4"><a href="#" class="readmore">Visit website</a></p>
+          <div class="testimonial bg-white h-100">
+            <blockquote class="mb-3">
+              <p>&ldquo;Far far away, behind the word mountains, <strong>far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</strong> right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+            </blockquote>
+            <div class="d-flex align-items-center vcard">
+              <figure class="mb-0 mr-3">
+                <img src="{% static 'images/person_3.jpg' %}" alt="Image" class="img-fluid ounded-circle">
+              </figure>
+              <div class="vcard-text">
+                <span class="d-block">Jacob Spencer</span>
+                <span class="position">Web Designer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
+          <img src="{% static 'images/techie.png' %}" alt="Image" class="img-fluid">
+        </div>
+        <div class="col-lg-5 h-100 jm-sticky-top mr-auto order-2 order-lg-1">
+          <h3>Pucho 'bout Corona</h3>
+          <p class="mb-4">One of the most paramount questions that humanity has often come across is whether is it necessary to prioritize yourself over others even in times of crisis? Pucho believes, no. Not doing so and extending a hand to others around in times of catastrophe is where the cardinal essence of humanity lies. Today, the intensity of cataclysm has escalated to a degree which has imposed threat on all of mankind, a threat that nobody in the world ever imagined would become our reality, a threat that humans were not composed to accord with, and a threat that decrees unflinching and humane support of every being that exists at this point of time.
+            Coronavirus k</p>
+          <p class="mb-4"><a href="#" class="readmore">Visit website</a></p>
+          <div class="testimonial bg-white h-100">
+            <blockquote class="mb-3">
+              <p>&ldquo;A small river named Duden <strong>flows by their place and supplies it with the necessary regelialia</strong>. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&rdquo;</p>
+            </blockquote>
+            <div class="d-flex align-items-center vcard">
+              <figure class="mb-0 mr-3">
+                <img src="{% static 'images/person_4.jpg' %}" alt="Image" class="img-fluid ounded-circle">
+              </figure>
+              <div class="vcard-text">
+                <span class="d-block">Jean Smith</span>
+                <span class="position">Web Designer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+  {% endblock %}

@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="site-section" id="about-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-5">
+          <img src="{% static 'images/techie.png' %}" alt="Image" class="img-fluid">
+        </div>
+        <div class="col-lg-5 ml-auto section-title">
+          <span class="sub-title mb-2 d-block">Acquaint Us</span>
+          <h2 class="title text-primary mb-3">About us</h2>
+          <p class="mb-4">Pucho is a technology information company that has worked in the AI industry for the past 4 years, across 7 different sectors. We aim to find ways to help companies solve their problems and improve their processes, products, and services with our AI expertise. We provide advanced and value-added services of today's time to every industry to help make their business more productive and efficient. The companies that we collaborate with are provided with best in class AI innovations within their respective market space and specific to the companies need.
+</p>
+
+
+          <div class="d-flex">
+            <ul class="list-unstyled ul-check success mr-5">
+              <li>Text to Speech (TTS) engine</li>
+              <li>Image recognition engines</li>
+
+
+            </ul>
+            <ul class="list-unstyled ul-check success">
+
+              <li>Speech to Text (STT) engine</li>
+              <li>Video recognition engines</li>
+
+            </ul>
+          </div>
+          <p><a data-fancybox data-ratio="2" href="https://vimeo.com/326176805" class="d-flex align-items-center"><span class="icon-play_circle_outline h4 m-0 mr-2"></span> <span>Watch the video</span></a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

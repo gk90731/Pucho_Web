@@ -1,0 +1,1 @@
+web: gunicorn pucho_web.wsgi
